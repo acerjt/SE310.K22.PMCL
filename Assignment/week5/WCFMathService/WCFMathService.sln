@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFMathService", "WCFMathService\", "{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49849"
+		Debug.AspNetCompiler.PhysicalPath = "WCFMathService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49849\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49849"
+		Release.AspNetCompiler.PhysicalPath = "WCFMathService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49849\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49849"
+		SlnRelativePath = "WCFMathService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApp", "MyWebApp\MyWebApp.csproj", "{75A81D2F-5C0F-4172-8CE5-347ADD88F66A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4} = {8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A19E21C-A9A4-43EF-B9E1-E019A60ACBB4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{75A81D2F-5C0F-4172-8CE5-347ADD88F66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A81D2F-5C0F-4172-8CE5-347ADD88F66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A81D2F-5C0F-4172-8CE5-347ADD88F66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A81D2F-5C0F-4172-8CE5-347ADD88F66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85AA311-C67F-4F44-895F-406052F40072}
+	EndGlobalSection
+EndGlobal
